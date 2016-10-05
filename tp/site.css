@@ -6,3 +6,12 @@
     padding: 5px;
     margin: 5px;
 }
+
+.erreurs {
+    background-color: crimson;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    color: white;
+    width: 50%;
+}

@@ -1,5 +1,6 @@
 
 $(document).ready(function () {
-    $("#welcome").html("Bonjour !");
+    $(".erreurs").hide();
 
+    $("#welcome").html("Bonjour !");
 });
