@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<meta name="description" content="Cours jQuery donné aux étudiants de Master 2 à l'UBO'">
+	<meta name="author" content="Jean-François Le Foll">
+
+	<title>JavaScript</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/beige.css">
+	<link rel="stylesheet" href="plugin/highlight/github.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<!--link rel="stylesheet" href="lib/css/zenburn.css"-->
+
+
+	<!-- Printing and PDF exports -->
+	<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h2>jQuery</h2>
+				<p>
+					<small> <a href="http://jefflefoll.github.io" target="_blank">Jean-François Le Foll</a> / <a href="http://twitter.com/JeffLeFoll">@JeffLeFoll</a></small>
+				</p>
+			</section>
+
+			<section id="ajax">
+				<section>
+					<h2>Ajax</h2>
+					<ul>
+						<li>Web 1.O: contenu satique, on recharge la page pour présenter de nouvelles données</li>
+						<li>Arrive le XMLHttpRequest (basé sur des travaux de Microsoft pour ActiveX pour Outlook WA)</li>
+						<li>Ajax combine XMLHttpRequest, JavaScript, JSON, XML, DOM HTML et css pour dynamiser l'application</li>
+						<li>On parle alors d'Application Internet Riche (RIA)</li>
+					</ul>
+				</section>
+
+				<section>
+					<p>Ajax permet d'échanger des données entre le client et le serveur sans devoir recharger la page.</p>
+					<p>Malheureusement l'api est implémentée différament par chaque navigateur ce qui complique son utilisation.</p>
+				</section>
+			</section>
+
+			<section id="jquery">
+				<section>
+					<h2>jQuery</h2>
+					<p>=> C'est une librairie JavaScript.</p>
+					<p>=> Elle permet de simplifier les appels Ajax et la manipulation du DOM.</p>
+					<p>=> Extensible avec des plugins.</p>
+				</section>
+
+				<section>
+					<ul>
+						<li>HTML/DOM manipulation</li>
+						<li>CSS manipulation</li>
+						<li>HTML event methods</li>
+						<li>Effects and animations</li>
+						<li>AJAX</li>
+					</ul>
+				</section>
+			</section>
+
+			<section id="jquery-suite">
+				<p>jQuery object methods: <code>$.()</code></p>
+				<p>Au chargement du DOM: <code>$(document).ready()</code></p>
+			</section>
+
+			<section id="jquery-select">
+				<p>Séléction</p>
+				<ul>
+					<li>Par ID: <code>$("#myId");</code></li>
+					<li>Par classe css: <code>$(".myClass");</code></li>
+					<li>Par attribut: <code>$("input[name='first_name']");</code></li>
+					<li>Par composition: <code>$("#contents ul.people li");</code></li>
+				</ul>
+			</section>
+
+			<section id="jquery-manipulation">
+				<p>Manipulation d'élément</p>
+				<ul>
+					<li><code>.attr()</code></li>
+					<li><code>.html();</code></li>
+					<li><code>.text();</code></li>
+					<li><code>.val();</code></li>
+					<li><code>.css();</code></li>
+					<li><code>.add/remove/toggleClass()</code></li>
+				</ul>
+			</section>
+
+			<section id="jquery-ajax">
+				<section>
+					<p>jQuery Ajax</p>
+					<ul>
+						<li>GET / POST</li>
+						<li>Asynchrone</li>
+						<li>text / html / script / json / jsonp / xml</li>
+					</ul>
+				</section>
+
+				<section>
+					<p>La méthode principale: <code>$.ajax()</code></p>
+					<pre><code class="javascript hljs">$.ajax({
+    url: "post.php",
+    data: { id: 123 },
+    type: "GET",
+    dataType : "json",
+})
+  .done(function( json ) {})
+  .fail(function( xhr, status, errorThrown ) {})
+  .always(function( xhr, status ) {});</code></pre>
+				</section>
+
+				<section>
+					<p>Shorthand <code>$.get/$.post/$.getScript/$.getJSON</code></p>
+					<pre><code class="javascript hljs">$.get( "/users.php", { userId: 1234 }, function( resp ) {} );</code></pre>
+				</section>
+			</section>
+
+			<section>
+				<a href="?print-pdf">Imprimer les slides (nécessite Chrome)</a>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+</body>
+
+</html>

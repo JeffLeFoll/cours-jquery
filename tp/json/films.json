@@ -1,0 +1,44 @@
+[
+    {
+        "titre": "Film 1",
+        "type": "action",
+        "acteurs": "Acteur 1, Acteur 2",
+        "prix": "15 €",
+        "jaquette": "http://placehold.it/100x140"
+    },
+    {
+        "titre": "Film 2",
+        "type": "comedie",
+        "acteurs": "Acteur 1, Acteur 3",
+        "prix": "32 €",
+        "jaquette": "http://placehold.it/100x140"
+    },
+    {
+        "titre": "Film 3",
+        "type": "drame",
+        "acteurs": "Acteur 3, Acteur 4",
+        "prix": "28 €",
+        "jaquette": "http://placehold.it/100x140"
+    },
+    {
+        "titre": "Film 4",
+        "type": "action",
+        "acteurs": "Acteur 5, Acteur 1",
+        "prix": "5 €",
+        "jaquette": "http://placehold.it/100x140"
+    },
+    {
+        "titre": "Film 5",
+        "type": "animation",
+        "acteurs": "Acteur 3, Acteur 2",
+        "prix": "9 €",
+        "jaquette": "http://placehold.it/100x140"
+    },
+    {
+        "titre": "Film 6",
+        "type": "comedie",
+        "acteurs": "Acteur 6, Acteur 4",
+        "prix": "18 €",
+        "jaquette": "http://placehold.it/100x140"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "titre": "Titre 1",
+        "chanteur": "Chanteur 1",
+        "prix": "15 €",
+        "jaquette": "http://placehold.it/100x100"
+    },
+        {
+        "titre": "Titre 2",
+        "chanteur": "Chanteur 1",
+        "prix": "32 €",
+        "jaquette": "http://placehold.it/100x100"
+    },
+        {
+        "titre": "Titre 3",
+        "chanteur": "Chanteur 2",
+        "prix": "9 €",
+        "jaquette": "http://placehold.it/100x100"
+    },
+        {
+        "titre": "Titre 4",
+        "chanteur": "Chanteur 3",
+        "prix": "45 €",
+        "jaquette": "http://placehold.it/100x100"
+    },
+        {
+        "titre": "Titre 5",
+        "chanteur": "Chanteur 3",
+        "prix": "11 €",
+        "jaquette": "http://placehold.it/100x100"
+    },
+        {
+        "titre": "Titre 6",
+        "chanteur": "Chanteur 4",
+        "prix": "16 €",
+        "jaquette": "http://placehold.it/100x100"
+    }
+]
