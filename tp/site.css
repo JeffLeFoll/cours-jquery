@@ -16,3 +16,39 @@
     width: 50%;
     visibility: hidden;
 }
+
+.catalogue {
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+
+}
+
+.catalogue table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.catalogue th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.catalogue tr:nth-child(even){background-color: #f2f2f2}
+
+.cds th {
+    background-color: lightseagreen;
+    color: white;
+}
+
+.films th {
+    background-color: lightskyblue;
+    color: white;
+}
+
+
+.livres th {
+    background-color: lightcoral;
+    color: white;
+}
+

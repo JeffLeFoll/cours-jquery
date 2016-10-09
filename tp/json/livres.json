@@ -2,42 +2,42 @@
     {
         "titre": "livre 1",
         "auteur": "auteur 1",
-        "prix": "10 €",
+        "prix": {"valeur": 10, "devise": "€"},
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In scelerisque luctus quam, eu luctus justo mollis nec. Sed eu leo a erat posuere posuere. In velit felis, cursus et lectus vitae, maximus feugiat ipsum. Pellentesque eget nisi interdum, elementum libero ac, venenatis lorem. Integer in finibus nisi. Suspendisse potenti. Morbi sit amet dui id lacus pulvinar placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque lacus nibh, eleifend quis nisl vitae, vestibulum interdum felis. Curabitur lacinia arcu mauris, sit amet volutpat eros vehicula non. Sed tincidunt nisi a tristique finibus. Maecenas ut tortor sit amet eros faucibus suscipit.",
         "couverture": "http://placehold.it/100x140"
     },
     {
         "titre": "livre 2",
         "auteur": "auteur 1",
-        "prix": "9 €",
+        "prix": {"valeur": 9, "devise": "€"},
         "description": "Nulla facilisi. Morbi interdum, ipsum ut euismod rhoncus, nibh dui fringilla nisi, a aliquet dui dui in augue. Nam sollicitudin finibus eros, id lobortis quam. Maecenas vitae iaculis dui. Quisque vitae est in arcu bibendum laoreet id sit amet risus. Morbi sed orci at nisi vestibulum sagittis. Proin eget porta dui, sit amet tempor nisi. In hac habitasse platea dictumst. Nulla facilisi. Donec fringilla magna volutpat, suscipit arcu in, efficitur nisi. Praesent in convallis est. Duis pulvinar, leo quis congue ullamcorper, tellus diam pulvinar neque, in condimentum quam ex quis erat.",
         "couverture": "http://placehold.it/100x140"
     },
     {
         "titre": "livre 3",
         "auteur": "auteur 2",
-        "prix": "6 €",
+        "prix": {"valeur": 6, "devise": "€"},
         "description": "Mauris nec malesuada libero. Sed viverra rutrum purus. Curabitur id lectus congue, laoreet magna id, tincidunt augue. Nam eu diam malesuada, pharetra tellus quis, placerat leo. Nulla consequat a tortor molestie malesuada. Proin ligula nisi, ultricies at enim nec, vestibulum dignissim nisi. Vivamus quis tempor sapien. Nam nec leo lacinia nisl finibus posuere. Sed pulvinar, turpis ut auctor interdum, mauris tortor mattis enim, id pulvinar est justo a risus. Cras eu venenatis nibh, ac ullamcorper purus. Phasellus dapibus pretium enim pulvinar ornare.",
         "couverture": "http://placehold.it/100x140"
     },
     {
         "titre": "livre 4",
         "auteur": "auteur 3",
-        "prix": "12 €",
+        "prix": {"valeur": 12, "devise": "€"},
         "description": "Curabitur convallis ac risus id placerat. Integer malesuada lacus at tellus rhoncus, quis lobortis odio bibendum. Phasellus sollicitudin nec quam ac pellentesque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Curabitur ornare neque massa, at tincidunt tortor maximus sed. Sed malesuada erat a lorem mollis, vitae accumsan neque ornare.",
         "couverture": "http://placehold.it/100x140"
     },
     {
         "titre": "livre 5",
         "auteur": "auteur 2",
-        "prix": "8 €",
+        "prix": {"valeur": 8, "devise": "€"},
         "description": "Proin a rutrum quam. Vestibulum et commodo leo. Sed sit amet turpis eget lectus feugiat pellentesque non et ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras tempor porta nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sit amet libero auctor, consectetur metus vitae, ullamcorper est.",
         "couverture": "http://placehold.it/100x140"
     },
     {
         "titre": "livre 6",
         "auteur": "auteur 4",
-        "prix": "14 €",
+        "prix": {"valeur": 14, "devise": "€"},
         "description": "Sed pulvinar pretium neque sed auctor. Sed egestas sem non augue aliquam, vel rhoncus mauris blandit. Phasellus id ullamcorper neque. Mauris condimentum posuere tortor id euismod. Donec quis diam a magna euismod ultrices vitae vitae nunc. Pellentesque molestie, justo sit amet sagittis commodo, augue sem venenatis sem, nec hendrerit sapien risus sed leo. Curabitur venenatis erat sapien, quis malesuada ante fringilla eget. In sit amet nisl nec est vulputate sodales et et tortor. Nulla facilisi. Ut ante tortor, bibendum eu lacus quis, ultrices fringilla felis.",
         "couverture": "http://placehold.it/100x140"
     }
